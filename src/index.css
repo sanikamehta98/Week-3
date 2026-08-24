@@ -38,6 +38,8 @@
   --color-cream-300: #D8D6CE;
   --color-ink:       #26251e;
   --color-ink-50:    rgba(38, 37, 30, 0.5);
+  --color-blue-500: #388ff7;
+  --color-blue-600: #2d7fe6;
 
   /* ── Semantic — purpose-based, reference primitives ──
    * These are the tokens you use in components.
@@ -49,8 +51,8 @@
   --color-text-secondary: var(--color-gray-500);
   --color-action-primary:          var(--color-gray-900);
   --color-action-primary-hover:    var(--color-gray-700);
-  --color-action-secondary:        var(--color-cream-200);
-  --color-action-secondary-hover:  var(--color-cream-300);
+  --color-action-secondary:        var(--color-blue-500);
+  --color-action-secondary-hover:  var(--color-blue-600);
 
   /* ── Component — map to semantic tokens ──
    * These power specific UI elements.
